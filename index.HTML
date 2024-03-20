@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="StyleSheet.Css">
+    
+</head>
+
+<body>
+    <div id="header">
+        <h1>Create your to do</h1>
+        <nav>
+            <ul>
+                
+                <li id="seeYourList">See your list</li>
+                
+            </ul>
+        </nav>
+    </div>
+    <fieldset>
+        <legend>
+            <b id="font">Create Your To-Do</b>
+        </legend>
+        <form id="form" method="get">
+            <div class="box">
+                <div>
+                    <label for="TaskName">Task Name</label>
+                </div>
+                <input type="text" id="TaskName" class="size">
+            </div>
+
+            <div class="box">
+                <div>
+                    <label for="TaskTiming">Task Timing</label>
+                </div>
+                <input type="Time" id="TaskTiming" class="size">
+            </div>
+
+            <div class="box">
+                <div>
+                    <label for="task Detail">Task Detail</label>
+                </div>
+                <textarea id="task Detail" placeholder="write something about your task" rows="5" cols="75"></textarea>
+            </div>
+
+
+            <div class="box">
+                <div>
+                    <label for="Taskpriority">Task Priority</label>
+                </div>
+                <select id="Taskpriority">
+                    <option id="Task-priority1">High Priority</option>
+                    <option id="Task-priority2">
+                        Medium priority
+                    </option>
+                    <option id="Task-priority3">
+                        Low priority
+                    </option>
+                </select>
+            </div>
+            <div id="btn">
+                <button id="button">Submit</button>
+            </div>
+
+        </form>
+    </fieldset>
+   
+    
+
+    <div class="listSection">
+        <div id="list">
+        <h3>To do list</h3>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+

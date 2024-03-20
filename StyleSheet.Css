@@ -1,0 +1,165 @@
+
+:root{
+    --bodyColor:rgb(99, 205, 232);
+    --formColor:rgb(179, 218, 255);
+    
+}
+body{
+background-color:var(--bodyColor);
+}
+#header{
+    border:2px solid black;
+    background-color:black;
+    width:102%;
+    display:flex;
+    color:white;
+    margin:-8px;
+}
+  
+
+
+
+
+nav ul{
+    display:flex;
+    gap:10px;
+    list-style:none;
+    /* border: 2px solid black; */
+}
+nav ul #seeYourList{
+    font-size: 20px;
+    color:white;
+    text-decoration:none;
+    /* border:1px solid black; */
+    border-radius:10px;
+    padding:5px;
+    position:relative;
+    left:750px;
+    top:5px;
+}
+nav ul #seeYourList:hover{
+    background-color:burlywood;
+    cursor:pointer;
+}
+#Task-priority1{
+    background-color:red;
+}
+
+#Task-priority2{
+    background-color:lightblue;
+}
+
+#Task-priority3{
+    background-color:yellow;
+}
+
+.size{
+    width:500px;
+    height:30px;
+   
+
+}
+#form{
+    height:300px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+#form .box{
+    /* border:2px solid black; */
+    /* width:550px;
+    height:80px; */
+    margin:10px;
+}
+
+#form .box input{
+    margin:10px;
+}
+
+
+#btn{
+    /* border:2px solid black; */
+    grid-column-end: span 2;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+}
+
+#btn #button{
+    width:120px;
+    height:40px;
+    border-radius:20px;
+}
+#font{
+    font-size:x-large;
+}
+fieldset{
+    border-radius:20px;
+    border:1px solid black;
+    /* margin:100px; */
+    position:relative;
+    top:10px;
+    background-color:var(--formColor);
+}
+.invisibel{
+    visibility: hidden;
+}
+
+
+.listSection{
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+   Height:300px;
+   width:400px;
+   border:2px solid black;
+   position:relative;
+   top:20px;
+   left:30%;
+}
+   
+#list{
+    background-color:white;
+    width:398px;
+    overflow:auto;
+}
+#line_1{
+    border:1px solid black;
+   width:25px;
+   margin:2px;
+   transform:rotate(40deg);
+   position:relative;
+   z-index:1;
+
+   
+}
+#line_2{
+    border:1px solid red;
+    width:25px;
+    transform:rotate(-40deg);
+    position:relative;
+    z-index:2;
+    bottom:2px;
+  
+}
+#list h3{
+    text-align:center;
+}
+.clear{
+    border:1px solid black;
+
+}
+.clear:hover{
+    background-color:red;
+}
+
+
+
+
+
+
+    
+
+    
+
+
